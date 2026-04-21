@@ -21,6 +21,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
         es: { label: 'Español', lang: 'es' },
         ja: { label: '日本語', lang: 'ja' },
+        'ru': { label: 'Русский', lang: 'ru' },
       },
       tableOfContents: {
         minHeadingLevel: 1,
