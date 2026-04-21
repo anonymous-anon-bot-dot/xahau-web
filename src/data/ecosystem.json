@@ -6,12 +6,14 @@
       "label": {
         "en": "Enterprises",
         "es": "Empresas",
-        "ja": "企業"
+        "ja": "企業",
+        "ru": "Предприятия"
       },
       "tagline": {
         "en": "Institutions that have adopted Xahau",
         "es": "Instituciones que han adoptado Xahau",
-        "ja": "Xahauを採用した機関"
+        "ja": "Xahauを採用した機関",
+        "ru": "Учреждения, принявшие Xahau"
       },
       "items": [
         {
@@ -50,12 +52,14 @@
       "label": {
         "en": "Wallets",
         "es": "Carteras",
-        "ja": "ウォレット"
+        "ja": "ウォレット",
+        "ru": "Кошельки"
       },
       "tagline": {
         "en": "Store, send and sign with XAH",
         "es": "Almacena, envía y firma con XAH",
-        "ja": "XAHを保管・送金・署名"
+        "ja": "XAHを保管・送金・署名",
+        "ru": "Храните, отправляйте и подписывайте документы с помощью XAH"
       },
       "items": [
         {
@@ -91,12 +95,14 @@
       "label": {
         "en": "Exchanges",
         "es": "Exchanges",
-        "ja": "取引所"
+        "ja": "取引所",
+        "ru": "Биржи"
       },
       "tagline": {
         "en": "Buy, sell and trade XAH",
         "es": "Compra, vende y opera con XAH",
-        "ja": "XAHを売買・取引"
+        "ja": "XAHを売買・取引",
+        "ru": "Покупай, продавай и торгуй XAH"
       },
       "items": [
         {
@@ -131,12 +137,14 @@
       "label": {
         "en": "Explorers & Utilities",
         "es": "Exploradores y utilidades",
-        "ja": "エクスプローラーとユーティリティ"
+        "ja": "エクスプローラーとユーティリティ",
+        "ru": "Блокчейн-эксплореры и утилита"
       },
       "tagline": {
         "en": "Inspect and interact with the ledger",
         "es": "Inspecciona e interactúa con el ledger",
-        "ja": "台帳を検索・操作"
+        "ja": "台帳を検索・操作",
+        "ru": "Исследуйте и взаимодействуйте с леджером"
       },
       "items": [
         {
@@ -172,12 +180,14 @@
       "label": {
         "en": "Projects",
         "es": "Proyectos",
-        "ja": "プロジェクト"
+        "ja": "プロジェクト",
+        "ru": "Проекты"
       },
       "tagline": {
         "en": "Apps, tools and experiences built on Xahau",
         "es": "Aplicaciones, herramientas y experiencias construidas en Xahau",
-        "ja": "Xahau上に構築されたアプリ・ツール・体験"
+        "ja": "Xahau上に構築されたアプリ・ツール・体験",
+        "ru": "Приложения, инструменты и опыт, созданные на Xahau"
       },
       "items": [
         {
