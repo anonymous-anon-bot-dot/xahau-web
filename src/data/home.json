@@ -5,7 +5,8 @@
       "label": {
         "en": "Ledgers closed",
         "es": "Ledgers cerrados",
-        "ja": "閉鎖済みレジャー"
+        "ja": "閉鎖済みレジャー",
+        "ru": "Лэджеров закрыто"
       },
       "theme": "dark",
       "col": 5
@@ -15,7 +16,8 @@
       "label": {
         "en": "Transactions / 24h",
         "es": "Transacciones/24h",
-        "ja": "取引/24時間"
+        "ja": "取引/24時間",
+        "ru": "Транзакций/24ч"
       },
       "theme": "teal",
       "col": 4
@@ -32,6 +34,7 @@
         "en": "Hooks installed",
         "es": "Hooks instalados",
         "ja": "インストール済みHooks"
+        "ru": "Установленных хуки"
       },
       "theme": "sage",
       "col": 3
@@ -47,7 +50,8 @@
       "label": {
         "en": "Hook executions",
         "es": "Ejecuciones de Hooks",
-        "ja": "Hook実行回数"
+        "ja": "Hook実行回数",
+        "ru": "Выполнения хуков"
       },
       "theme": "dark",
       "col": 6
@@ -59,7 +63,8 @@
       "label": {
         "en": "Want to run a node?",
         "es": "¿Quieres ejecutar un nodo?",
-        "ja": "ノードを運用しませんか？"
+        "ja": "ノードを運用しませんか？",
+        "ru": "Хотите запустить ноду (узел)?"
       },
       "url": "/docs/infrastructure/system-requirements"
     }
