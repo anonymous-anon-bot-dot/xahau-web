@@ -11,7 +11,7 @@
     },
     "i18n": {
       "defaultLocale": "en",
-      "locales": ["en", "es"]
+      "locales": ["en", "es", "ru"]
     }
   },
 
@@ -95,7 +95,47 @@
         "launch": "Lanzamiento / bien público"
       },
       "foot": "Orientativo - sujeto a cambios - xahau.network"
+    },
+    "ru": {
+  "title": "Дорожная карта Xahau",
+  "subtitle": "Корпоративная сеть с минимальными изменениями протокола и максимальной надёжностью",
+  "statement": "Xahau - это <em>корпоративного уровня</em> Layer-1 блокчейн. Изменения протокола происходят осознанно и редко. Основная работа ведётся в <em>развёртываниях</em>: аудитах, интеграциях и партнёрствах, которые передают сеть в руки реальных пользователей. Перечисленные здесь пункты носят ориентировочный характер и могут измениться. На данный момент эта дорожная карта охватывает только основную разработку и деятельность, которой занимается INFTF.",
+  "kpis": {
+    "features": "новых возможностей протокола",
+    "quarters": "кварталов вперёд",
+    "rollouts": "этапов развёртывания"
+  },
+  "laneTech": "Возможности протокола",
+  "laneRollout": "Развёртывания и внедрения",
+  "now": "СЕЙЧАС",
+  "updated": "обновлено",
+  "philosophy": [
+    {
+      "t": "Позиция",
+      "v": "Корпоративный уровень - изменения продуманны, тщательно протестированы и обратимы до запуска в продакшен."
+    },
+    {
+      "t": "Новые возможности",
+      "v": "Только то, что действительно нужно пользователям и предприятиям."
+    },
+    {
+      "t": "Фокус",
+      "v": "Развёртывания, коридоры и партнёрства - заставляем Xahau работать на практике."
+    },
+    {
+      "t": "Открытость",
+      "v": "Прозрачный процесс внесения поправок, публичные аудиты, открытые стандарты."
     }
+  ],
+  "legend": {
+    "feature": "Возможность протокола",
+    "live": "В продакшене",
+    "pilot": "Пилот",
+    "partnership": "Партнёрство",
+    "launch": "Запуск / общественное благо"
+  },
+  "foot": "Ориентировочно - может измениться - xahau.network"
+}
   },
 
   "items": [
@@ -107,15 +147,18 @@
       "endQuarter": "2026-Q2",
       "tag": {
         "en": "Feature · in beta development",
-        "es": "Función · en desarrollo beta"
+        "es": "Función · en desarrollo beta",
+        "ru": "Функция · в стадии бета-тестирования"
       },
       "title": {
         "en": "Random Number Generator",
-        "es": "Generador de números aleatorios"
+        "es": "Generador de números aleatorios",
+        "ru": "Генератор случайных чисел"
       },
       "description": {
         "en": "Native on-ledger RNG primitive — verifiable, tamper-resistant randomness for Hooks and applications.",
-        "es": "Primitiva RNG nativa en el ledger — aleatoriedad verificable y resistente a manipulación para Hooks y aplicaciones."
+        "es": "Primitiva RNG nativa en el ledger — aleatoriedad verificable y resistente a manipulación para Hooks y aplicaciones.",
+        "ru": "Встроенный в реестр примитив генератора случайных чисел - проверяемая, защищенная от несанкционированного изменения случайность для хуков и приложений."
       }
     },
     {
@@ -126,12 +169,14 @@
       "endQuarter": "2026-Q3",
       "tag": {
         "en": "Feature · in development",
-        "es": "Función · en desarrollo"
+        "es": "Función · en desarrollo",
+        "ru": "Функция · в разработке"
       },
       "title": { "en": "FeatureExport", "es": "FeatureExport" },
       "description": {
         "en": "Export lets a Xahau user or hook request that the Xahau UNL sign a transaction destined for the XRPL — an ordinary transaction with a MultiSign block in which each UNL member contributes one of the signatures. This allows Xahau hooks to effectively control XRPL accounts and issue and manage assets on XRPL.",
-        "es": "Export permite que un usuario o un Hook de Xahau solicite que la UNL de Xahau firme una transacción destinada al XRPL — una transacción ordinaria con un bloque MultiSign en el que cada miembro de la UNL aporta una de las firmas. Esto permite que los Hooks de Xahau controlen cuentas del XRPL y emitan y gestionen activos en XRPL."
+        "es": "Export permite que un usuario o un Hook de Xahau solicite que la UNL de Xahau firme una transacción destinada al XRPL — una transacción ordinaria con un bloque MultiSign en el que cada miembro de la UNL aporta una de las firmas. Esto permite que los Hooks de Xahau controlen cuentas del XRPL y emitan y gestionen activos en XRPL.",
+        "ru": "Экспорт (Export) позволяет пользователю Xahau или хуку запросить у UNL сети Xahau подпись транзакции, направленной на XRPL. Это обычная транзакция, содержащая MultiSign-блок, где каждый валидатор из UNL вносит одну из подписей. Благодаря этому хуки Xahau могут полноценно контролировать аккаунты на XRPL, а также выпускать и управлять активами на сети XRPL."
       }
     },
     {
@@ -142,12 +187,14 @@
       "span": 2,
       "tag": {
         "en": "Feature · ready for amendment",
-        "es": "Función · lista para enmienda"
+        "es": "Función · lista para enmienda",
+        "ru": "Функция · готова к внесению изменений"
       },
       "title": { "en": "AMM", "es": "AMM" },
       "description": {
         "en": "Automated Market Maker primitive for deep native liquidity on the Xahau DEX. Merged into the xahaud dev branch, awaiting amendment vote.",
-        "es": "Primitiva Automated Market Maker para liquidez nativa profunda en el DEX de Xahau. Integrada en la rama dev de xahaud, a la espera de la votación de enmienda."
+        "es": "Primitiva Automated Market Maker para liquidez nativa profunda en el DEX de Xahau. Integrada en la rama dev de xahaud, a la espera de la votación de enmienda.",
+        "ru": "Автоматизированный маркет-мейкер (AMM) - примитив для создания глубокой нативной ликвидности на децентрализованной бирже Xahau. Изменение уже влито в dev-ветку xahaud и ожидает голосования по амеднменту."
       }
     },
     {
@@ -158,12 +205,14 @@
       "span": 2,
       "tag": {
         "en": "Feature · ready for amendment",
-        "es": "Función · lista para enmienda"
+        "es": "Función · lista para enmienda",
+        "ru": "Функция · готова к внесению изменений"
       },
       "title": { "en": "PriceOracle", "es": "PriceOracle" },
       "description": {
         "en": "Native on-ledger price feed primitive — tamper-resistant asset prices for DeFi, AMM and Hooks. Merged into the xahaud dev branch, awaiting amendment vote.",
-        "es": "Primitiva nativa de precios en el ledger — precios de activos resistentes a manipulación para DeFi, AMM y Hooks. Integrada en la rama dev de xahaud, a la espera de la votación de enmienda."
+        "es": "Primitiva nativa de precios en el ledger — precios de activos resistentes a manipulación para DeFi, AMM y Hooks. Integrada en la rama dev de xahaud, a la espera de la votación de enmienda.",
+        "ru": "Нативный примитив ценовых оракулов на уровне ledger - устойчивые к вмешательству цены активов для DeFi, AMM и Hooks. Изменение уже влито в dev-ветку xahaud и ожидает голосования по амеднменту."
       }
     },
     {
@@ -174,12 +223,14 @@
       "endQuarter": "2026-Q3",
       "tag": {
         "en": "Feature · in development",
-        "es": "Función · en desarrollo"
+        "es": "Función · en desarrollo",
+        "ru": "Функция · в разработке"
       },
       "title": { "en": "IOURewardClaim", "es": "IOURewardClaim" },
       "description": {
         "en": "Extends the current RewardClaim for XAH to make it available for IOU tokens as well — letting projects use Hooks to distribute rewards based on a user's token holdings.",
-        "es": "Extiende el RewardClaim actual de XAH para ofrecerlo también a tokens IOU — permitiendo a los proyectos usar Hooks para distribuir recompensas según las tenencias de tokens de un usuario."
+        "es": "Extiende el RewardClaim actual de XAH para ofrecerlo también a tokens IOU — permitiendo a los proyectos usar Hooks para distribuir recompensas según las tenencias de tokens de un usuario.",
+        "ru": "Расширение функции RewardClaim, позволяя получать вознаграждения не только в XAH, но и в IOU-токенах. Теперь проекты могут использовать Hooks для распределения наград в зависимости от токенов, которые держит пользователь."
       }
     },
     {
@@ -190,12 +241,14 @@
       "endQuarter": "2026-Q4",
       "tag": {
         "en": "Feature · in development",
-        "es": "Función · en desarrollo"
+        "es": "Función · en desarrollo",
+        "ru": "Функция · в разработке"
       },
       "title": { "en": "NamedHook", "es": "NamedHook" },
       "description": {
         "en": "Allows names to be set to identify Hooks, so different Hooks can be invoked even within the same transaction type.",
-        "es": "Permite asignar nombres para identificar Hooks, de modo que se puedan invocar diferentes Hooks incluso dentro del mismo tipo de transacción."
+        "es": "Permite asignar nombres para identificar Hooks, de modo que se puedan invocar diferentes Hooks incluso dentro del mismo tipo de transacción.",
+        "ru": "Позволяет задавать имена для идентификации Hooks, благодаря чему разные Hooks можно вызывать даже внутри одной и той же транзакции."
       }
     },
     {
@@ -206,12 +259,14 @@
       "span": 3,
       "tag": {
         "en": "Feature · in alpha development",
-        "es": "Función · en desarrollo alfa"
+        "es": "Función · en desarrollo alfa",
+        "ru": "Функция · находится в стадии альфа-разработки"
       },
       "title": { "en": "JSHooks", "es": "JSHooks" },
       "description": {
         "en": "JavaScript runtime for Hooks — write Xahau smart-contract logic in JavaScript alongside the existing WebAssembly runtime, broadening the developer surface.",
-        "es": "Entorno de ejecución JavaScript para Hooks — escribir la lógica de smart contracts en JavaScript junto al entorno WebAssembly existente, ampliando la superficie para desarrolladores."
+        "es": "Entorno de ejecución JavaScript para Hooks — escribir la lógica de smart contracts en JavaScript junto al entorno WebAssembly existente, ampliando la superficie para desarrolladores.",
+        "ru": "JavaScript runtime для Hooks - возможность писать смарт-контракты Xahau на JavaScript в дополнение к существующему WebAssembly runtime. Это значительно расширяет круг разработчиков."
       }
     },
     {
@@ -222,15 +277,18 @@
       "openEnded": true,
       "tag": {
         "en": "Ongoing · audits + optimisations",
-        "es": "Continuo · auditorías y optimizaciones"
+        "es": "Continuo · auditorías y optimizaciones",
+        "ru": "Текущий · аудит + оптимизация"
       },
       "title": {
         "en": "Audit & optimisations",
-        "es": "Auditorías y optimizaciones"
+        "es": "Auditorías y optimizaciones",
+        "ru": "Аудит и оптимизация"
       },
       "description": {
         "en": "Continuous security audits and performance work across the protocol, Hooks and tooling.",
-        "es": "Auditorías de seguridad y trabajo de rendimiento continuos en el protocolo, Hooks y herramientas."
+        "es": "Auditorías de seguridad y trabajo de rendimiento continuos en el protocolo, Hooks y herramientas.",
+        "ru": "Постоянные аудиты безопасности и оптимизация производительности протокола, Hooks и инструментария."
       }
     },
 
