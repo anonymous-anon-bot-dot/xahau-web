@@ -1,10 +1,10 @@
 ---
 /**
- * XahauAbout.astro — Hand-crafted editorial layout (English)
+ * XahauAbout.astro — Hand-crafted editorial layout (Russian)
  *
  * No JSON loops. Three thematic acts: Network · Protocol · Currency.
  * Matches XahauFeatures.astro philosophy exactly.
- * For ES/JA: see XahauAboutEs.astro / XahauAboutJa.astro
+ * For EN/ES/JA: see XahauAbout.astro / XahauAboutEs.astro / XahauAboutJa.astro
  */
 
 import networkGraphic from '../assets/enterprise/about-network.svg'
@@ -18,16 +18,16 @@ const videoId = '4pruN6sWJho'
   <!-- ══ PAGE HEADER ══════════════════════════════════════════════════════ -->
   <header class="xa-head">
     <div class="xa-head-title">
-      <h2>About Xahau</h2>
+      <h2>О Xahau</h2>
       <p class="xa-sub">
-        Enterprise L1 blockchain with account-based programmability
+        L1-блокчейн корпоративного уровня с программируемостью на основе аккаунтов
       </p>
     </div>
     <div class="xa-chips">
-      <span class="xa-chip">Est. October 2023</span>
-      <span class="xa-chip">200k+ Accounts</span>
-      <span class="xa-chip">~4s Settlement</span>
-      <span class="xa-chip">10k tx / ledger</span>
+      <span class="xa-chip">Основан в октябре 2023</span>
+      <span class="xa-chip">200ты.с+ аккаунтов</span>
+      <span class="xa-chip">~4с подтверждение</span>
+      <span class="xa-chip">10тыс. tx / ledger</span>
     </div>
   </header>
 
@@ -35,42 +35,39 @@ const videoId = '4pruN6sWJho'
        ACT I — THE NETWORK
   ══════════════════════════════════════════════════════════════════════════ -->
   <div class="xa-act act-net">
-    <p class="xa-act-label"><span class="act-pip pip-grn"></span>The Network</p>
+    <p class="xa-act-label"><span class="act-pip pip-grn"></span>Сеть</p>
 
     <!-- WHAT IS XAHAU ─ statement opener ──────────────────────────────── -->
     <div class="xa-statement stmt-net">
       <div class="xa-stmt-body">
         <span class="xa-lbl lbl-net">Overview</span>
         <h3>
-          What is Xahau?
+          Что такое Xahau?
           <br>
-          The short explainer
+          Краткое объяснение
         </h3>
         <p>
-          Xahau is a L1 blockchain with a unique composition of features and a
-          fresh approach to blockchain programmability, also known as smart
-          contracts.
+          Xahau - это L1-блокчейн с уникальным сочетанием функций и свежим подходом 
+          к программируемости блокчейна, также известной как смарт-контракты.
         </p>
         <p>
-          The long-term proven technology settles transactions in ~4 seconds at
-          very low costs down to fractions of a USD cent. It is scalable,
-          currently with up to 10,000 transactions per ledger, and is an
-          inherently green and energy friendly blockchain.
+          Долгосрочно проверенная технология подтверждает транзакции примерно за 4 секунды 
+          при очень низкой стоимости - вплоть до долей цента США. Технология масштабируема 
+          (в настоящее время до 10 000 транзакций на ledger) и является изначально 
+          экологичным и энергоэффективным блокчейном.
         </p>
         <p>
-          Xahau offers native features for issuing and trading currencies on the
-          built-in decentralised exchange, native non-fungible tokens, and
-          endless opportunities for DeFi with custom logic through Xahau smart
-          contracts, known as Hooks.
+          Xahau предлагает нативные функции для выпуска и торговли валютами на встроенной 
+          децентрализованной бирже, нативные невзаимозаменяемые токены (NFT), а также 
+          безграничные возможности DeFi с кастомной логикой через смарт-контракты Xahau, 
+          известные как Hooks.
         </p>
         <p>
-          Hooks lives on accounts, making it a fresh take on how custom logic
-          can be used to act on account-based events, such as receiving
-          transactions. Hooks are currently developed in C, but JavaScript
-          support is already developed and in testing, with other programming
-          languages in the scope as well. This makes the world of smart
-          contracts available, without a steep learning curve, to millions of
-          developers.
+          Hooks живут на аккаунтах, что представляет свежий взгляд на то, как кастомная 
+          логика может реагировать на события аккаунта, такие как получение транзакций. 
+          В настоящее время Hooks разрабатываются на языке C, но поддержка JavaScript 
+          уже реализована и проходит тестирование, а в планах - и другие языки программирования. 
+          Это делает мир смарт-контрактов доступным без крутой кривой обучения для миллионов разработчиков.
         </p>
       </div>
       <div class="xa-stmt-graphic">
@@ -78,7 +75,7 @@ const videoId = '4pruN6sWJho'
           src={networkGraphic.src}
           width="380"
           height="380"
-          alt="Xahau network topology illustration"
+          alt="Иллюстрация топологии сети Xahau"
         >
       </div>
     </div>
@@ -111,39 +108,38 @@ const videoId = '4pruN6sWJho'
   ══════════════════════════════════════════════════════════════════════════ -->
   <div class="xa-act act-proto">
     <p class="xa-act-label">
-      <span class="act-pip pip-teal"></span>The Protocol
+      <span class="act-pip pip-teal"></span>Протокол
     </p>
 
     <!-- TECHNOLOGY ─ statement opener ────────────────────────────────── -->
     <div class="xa-statement stmt-proto">
       <div class="xa-stmt-body">
-        <span class="xa-lbl lbl-proto">Technology</span>
+        <span class="xa-lbl lbl-proto">Технология</span>
         <h3>
-          What is the technology
+          Какая технология
           <br>
-          behind Xahau?
+          лежит в основе Xahau?
         </h3>
         <p>
-          Xahau is proven technology, as it is an evolved iteration of the XRP
-          Ledger code, enhanced with smart contract, account-based
-          programmability (Hooks), and equal support for issued currencies in
-          native features such as escrows and payment channels.
+          Xahau - это проверенная технология, так как она представляет собой эволюционную 
+          версию кода XRP Ledger, улучшенную смарт-контрактами, программируемостью 
+          на уровне аккаунтов (Hooks) и равной поддержкой выпущенных валют в нативных 
+          функциях, таких как escrows и payment channels.
         </p>
         <p>
-          Xahau, like the XRPL, uses a Federated Consensus mechanism as its
-          method of validating transactions. Transactions are confirmed through
-          a consensus protocol, in which designated independent servers called
-          validators come to an agreement on the order and outcome of
-          transactions. All servers in the network process each transaction
-          according to the same rules, and any transaction that follows the
-          protocol is confirmed right away. All transactions are public and
-          transparent, and anyone can operate a validator.
+          Xahau, как и XRPL, использует механизм Federated Consensus для валидации 
+          транзакций. Транзакции подтверждаются через протокол консенсуса, в котором 
+          назначенные независимые серверы, называемые валидаторами, приходят к соглашению 
+          о порядке и исходе транзакций. Все серверы сети обрабатывают каждую транзакцию 
+          по одним и тем же правилам, и любая транзакция, соответствующая протоколу, 
+          подтверждается немедленно. Все транзакции публичны и прозрачны, и любой может 
+          запустить валидатор.
         </p>
         <p>
-          Xahau introduces a governance game to ensure a community-centric
-          approach towards decision-making of the network. To play the game, the
-          members of the tables cast votes. The topics discussed on this 2
-          layers table system include seats, hooks and rewards topics.
+          Xahau вводит систему управления в форме игры (governance game), чтобы обеспечить 
+          ориентированный на сообщество подход к принятию решений в сети. Чтобы участвовать 
+          в игре, члены таблиц голосуют. Темы, обсуждаемые в этой двухуровневой системе 
+          таблиц, включают seats, hooks и rewards.
         </p>
       </div>
       <div class="xa-stmt-graphic">
@@ -151,7 +147,7 @@ const videoId = '4pruN6sWJho'
           src={protocolGraphic.src}
           width="380"
           height="380"
-          alt="Xahau protocol architecture illustration"
+          alt="Иллюстрация архитектуры протокола Xahau"
         >
       </div>
     </div>
@@ -162,36 +158,35 @@ const videoId = '4pruN6sWJho'
   ══════════════════════════════════════════════════════════════════════════ -->
   <div class="xa-act act-curr">
     <p class="xa-act-label">
-      <span class="act-pip pip-vlt"></span>The Currency
+      <span class="act-pip pip-vlt"></span>Валюта
     </p>
 
     <!-- XAH ─ statement opener ────────────────────────────────────────── -->
     <div class="xa-statement stmt-curr">
       <div class="xa-stmt-body">
-        <span class="xa-lbl lbl-curr">Economics</span>
+        <span class="xa-lbl lbl-curr">Экономика</span>
         <h3>
-          XAH, the native
+          XAH - нативная
           <br>
-          currency of Xahau
+          валюта Xahau
         </h3>
         <p>
-          The native currency on Xahau is called XAH and is an inflationary
-          currency. Every account can participate in balance adjustment by
-          interacting with a Hook on the genesis account, monthly accruing 4% of
-          the account balance.
+          Нативная валюта Xahau называется XAH и является инфляционной валютой. 
+          Каждый аккаунт может участвовать в корректировке баланса, взаимодействуя 
+          с Hook на genesis-аккаунте, ежемесячно получая 4 % от баланса аккаунта.
         </p>
         <p>
-          XAH is used to prevent network spam, by adding a cost of transacting.
-          Normal transactions cost fractions of a XAH, while the price of
-          transacting increases if interacting with Hooks. XAH is also required
-          as a locked balance, or reserve, to own an account, own objects, or
-          storing data for smart contract consumption.
+          XAH используется для предотвращения спама в сети путём введения стоимости 
+          транзакций. Обычные транзакции стоят долей XAH, а стоимость транзакций 
+          возрастает при взаимодействии с Hooks. XAH также требуется в качестве 
+          заблокированного баланса или резерва для создания аккаунта, владения 
+          объектами или хранения данных для использования смарт-контрактами.
         </p>
         <p>
-          Because of Hooks, the burn-rate of XAH is higher compared to that of
-          XRPL. For projects that rely on Hooks for custom logic, it is
-          recommended that they keep a balance of XAH that can generate a
-          monthly balance adjustment to pay for fees.
+          Благодаря Hooks скорость сжигания XAH выше, чем в XRPL. Для проектов, 
+          которые полагаются на Hooks для кастомной логики, рекомендуется поддерживать 
+          баланс XAH, который может генерировать ежемесячную корректировку баланса 
+          для оплаты комиссий.
         </p>
       </div>
       <div class="xa-stmt-graphic">
@@ -199,7 +194,7 @@ const videoId = '4pruN6sWJho'
           src={xahGraphic.src}
           width="380"
           height="380"
-          alt="XAH currency illustration"
+          alt="Иллюстрация валюты XAH"
         >
       </div>
     </div>
