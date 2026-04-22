@@ -33,7 +33,7 @@
       "label": {
         "en": "Hooks installed",
         "es": "Hooks instalados",
-        "ja": "インストール済みHooks"
+        "ja": "インストール済みHooks",
         "ru": "Установленных хуки"
       },
       "theme": "sage",
