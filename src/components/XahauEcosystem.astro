@@ -44,7 +44,7 @@ const logoMap: Record<string, ImageMetadata> = {
   quantoz: logoQuantoz,
 }
 
-type Locale = 'en' | 'es' | 'ja'
+type Locale = 'en' | 'es' | 'ja'| 'ru'
 const locale = (Astro.currentLocale ?? 'en') as Locale
 
 // Projects sorted alphabetically at build time; others keep editorial order.
@@ -163,6 +163,8 @@ const sections = ecosystemData.sections.map((section) =>
       : locale === 'ja'
       ? 'すべての商標およびロゴは、各所有者の財産です。'
       : 'All trademarks and logos are the property of their respective owners.'}
+      : locale === 'ru'
+      ? 'Все товарные знаки и логотипы являются собственностью их соответствующих владельцев.'
   </p>
 </section>
 
