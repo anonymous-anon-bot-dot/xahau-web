@@ -1,8 +1,10 @@
+---
 /**
- * XahauAboutEs.astro — Versión en español, layout editorial
+ * XahauAbout.astro — Hand-crafted editorial layout (English)
  *
- * Sin JSON, sin bucles para la prosa. Tres actos temáticos.
- * Misma filosofía que XahauFeaturesEs.astro
+ * No JSON loops. Three thematic acts: Network · Protocol · Currency.
+ * Matches XahauFeatures.astro philosophy exactly.
+ * For ES/JA: see XahauAboutEs.astro / XahauAboutJa.astro
  */
 
 import networkGraphic from '../assets/enterprise/about-network.svg'
@@ -12,63 +14,63 @@ import xahGraphic from '../assets/enterprise/about-xah.svg'
 const videoId = '4pruN6sWJho'
 ---
 
-<section class="xabout" aria-label="Sobre Xahau">
-  <!-- ══ ENCABEZADO ═══════════════════════════════════════════════════════ -->
+<section class="xabout" aria-label="About Xahau">
+  <!-- ══ PAGE HEADER ══════════════════════════════════════════════════════ -->
   <header class="xa-head">
     <div class="xa-head-title">
-      <h2>Sobre Xahau</h2>
+      <h2>About Xahau</h2>
       <p class="xa-sub">
-        Blockchain L1 empresarial con programabilidad basada en cuentas
+        Enterprise L1 blockchain with account-based programmability
       </p>
     </div>
     <div class="xa-chips">
-      <span class="xa-chip">Est. octubre 2023</span>
-      <span class="xa-chip">200k+ cuentas</span>
-      <span class="xa-chip">~4s de liquidación</span>
+      <span class="xa-chip">Est. October 2023</span>
+      <span class="xa-chip">200k+ Accounts</span>
+      <span class="xa-chip">~4s Settlement</span>
       <span class="xa-chip">10k tx / ledger</span>
     </div>
   </header>
 
   <!-- ══════════════════════════════════════════════════════════════════════
-       ACTO I — LA RED
+       ACT I — THE NETWORK
   ══════════════════════════════════════════════════════════════════════════ -->
   <div class="xa-act act-net">
-    <p class="xa-act-label"><span class="act-pip pip-grn"></span>La Red</p>
+    <p class="xa-act-label"><span class="act-pip pip-grn"></span>The Network</p>
 
+    <!-- WHAT IS XAHAU ─ statement opener ──────────────────────────────── -->
     <div class="xa-statement stmt-net">
       <div class="xa-stmt-body">
-        <span class="xa-lbl lbl-net">Descripción general</span>
+        <span class="xa-lbl lbl-net">Overview</span>
         <h3>
-          ¿Qué es Xahau?
+          What is Xahau?
           <br>
-          La explicación breve
+          The short explainer
         </h3>
         <p>
-          Xahau es una blockchain L1 construida para la programabilidad seria —
-          combinando tecnología de ledger contrastada con un enfoque poderoso y
-          distintivo hacia los contratos inteligentes, conocidos como Hooks.
+          Xahau is a L1 blockchain with a unique composition of features and a
+          fresh approach to blockchain programmability, also known as smart
+          contracts.
         </p>
         <p>
-          La tecnología liquida transacciones en aproximadamente 4 segundos a
-          costes de apenas fracciones de un centavo de USD. Con capacidad para
-          procesar hasta 10.000 transacciones por ledger, la red es
-          inherentemente verde y eficiente energéticamente por diseño.
+          The long-term proven technology settles transactions in ~4 seconds at
+          very low costs down to fractions of a USD cent. It is scalable,
+          currently with up to 10,000 transactions per ledger, and is an
+          inherently green and energy friendly blockchain.
         </p>
         <p>
-          Xahau ofrece características nativas para emitir y negociar monedas en
-          el exchange descentralizado integrado, tokens no fungibles nativos,
-          transacciones atómicas multi-activo mediante el transactor Remit, y
-          oportunidades ilimitadas para DeFi a través de Hooks — el sistema de
-          contratos inteligentes basado en cuentas de Xahau.
+          Xahau offers native features for issuing and trading currencies on the
+          built-in decentralised exchange, native non-fungible tokens, and
+          endless opportunities for DeFi with custom logic through Xahau smart
+          contracts, known as Hooks.
         </p>
         <p>
-          Los Hooks residen directamente en las cuentas, respondiendo a eventos
-          de transacción como pagos recibidos, enviados o enrutados.
-          Desarrollados originalmente en C, los Hooks ahora soportan cualquier
-          lenguaje compilable con WebAssembly. El soporte para Hooks en
-          JavaScript (JSHooks) avanza a través de auditorías de seguridad,
-          acercando las finanzas programables a decenas de millones de
-          desarrolladores en todo el mundo.
+          Hooks lives on accounts, making it a fresh take on how custom logic
+          can be used to act on account-based events, such as receiving
+          transactions. Hooks are currently developed in C, but JavaScript
+          support is already developed and in testing, with other programming
+          languages in the scope as well. This makes the world of smart
+          contracts available, without a steep learning curve, to millions of
+          developers.
         </p>
       </div>
       <div class="xa-stmt-graphic">
@@ -81,11 +83,12 @@ const videoId = '4pruN6sWJho'
       </div>
     </div>
 
+    <!-- VIDEO ─────────────────────────────────────────────────────────── -->
     <div class="xa-video-section">
       <div class="xa-video-wrap">
         <iframe
           src={`https://www.youtube.com/embed/${videoId}?si=IlxKDlD2LFLwS6EK`}
-          title="Descripción general de Xahau"
+          title="Xahau overview"
           frameborder="0"
           allow="
             accelerometer;
@@ -104,46 +107,43 @@ const videoId = '4pruN6sWJho'
   </div><!-- /act-net -->
 
   <!-- ══════════════════════════════════════════════════════════════════════
-       ACTO II — EL PROTOCOLO
+       ACT II — THE PROTOCOL
   ══════════════════════════════════════════════════════════════════════════ -->
   <div class="xa-act act-proto">
     <p class="xa-act-label">
-      <span class="act-pip pip-teal"></span>El Protocolo
+      <span class="act-pip pip-teal"></span>The Protocol
     </p>
 
+    <!-- TECHNOLOGY ─ statement opener ────────────────────────────────── -->
     <div class="xa-statement stmt-proto">
       <div class="xa-stmt-body">
-        <span class="xa-lbl lbl-proto">Tecnología</span>
+        <span class="xa-lbl lbl-proto">Technology</span>
         <h3>
-          ¿Cuál es la tecnología
+          What is the technology
           <br>
-          detrás de Xahau?
+          behind Xahau?
         </h3>
         <p>
-          Xahau es tecnología probada y lista para producción — una iteración
-          evolucionada del código del XRP Ledger, mejorada con programabilidad
-          de contratos inteligentes basada en cuentas (Hooks), soporte nativo
-          igualitario para monedas emitidas en características como garantías y
-          canales de pago, y una capa de transacciones atómicas que permite
-          ejecutar operaciones complejas y de múltiples pasos como una unidad
-          indivisible.
+          Xahau is proven technology, as it is an evolved iteration of the XRP
+          Ledger code, enhanced with smart contract, account-based
+          programmability (Hooks), and equal support for issued currencies in
+          native features such as escrows and payment channels.
         </p>
         <p>
-          Xahau utiliza un mecanismo de Consenso Federado para validar
-          transacciones. Servidores independientes llamados validadores alcanzan
-          un acuerdo sobre el orden y resultado de cada transacción. Todos los
-          servidores procesan cada transacción según las mismas reglas, y
-          cualquier transacción válida se confirma en segundos. Toda la
-          actividad es pública y transparente, y cualquiera puede operar un
-          validador.
+          Xahau, like the XRPL, uses a Federated Consensus mechanism as its
+          method of validating transactions. Transactions are confirmed through
+          a consensus protocol, in which designated independent servers called
+          validators come to an agreement on the order and outcome of
+          transactions. All servers in the network process each transaction
+          according to the same rules, and any transaction that follows the
+          protocol is confirmed right away. All transactions are public and
+          transparent, and anyone can operate a validator.
         </p>
         <p>
-          La gobernanza de la red está guiada por un juego de gobernanza
-          estructurado que garantiza una toma de decisiones impulsada por la
-          comunidad. Los participantes en un sistema de mesas de dos niveles
-          emiten votos sobre asientos de red, enmiendas de Hooks y parámetros de
-          recompensas — otorgando al ecosistema una influencia genuina y
-          continua sobre la dirección de la red.
+          Xahau introduces a governance game to ensure a community-centric
+          approach towards decision-making of the network. To play the game, the
+          members of the tables cast votes. The topics discussed on this 2
+          layers table system include seats, hooks and rewards topics.
         </p>
       </div>
       <div class="xa-stmt-graphic">
@@ -158,41 +158,40 @@ const videoId = '4pruN6sWJho'
   </div><!-- /act-proto -->
 
   <!-- ══════════════════════════════════════════════════════════════════════
-       ACTO III — LA MONEDA
+       ACT III — THE CURRENCY
   ══════════════════════════════════════════════════════════════════════════ -->
   <div class="xa-act act-curr">
-    <p class="xa-act-label"><span class="act-pip pip-vlt"></span>La Moneda</p>
+    <p class="xa-act-label">
+      <span class="act-pip pip-vlt"></span>The Currency
+    </p>
 
+    <!-- XAH ─ statement opener ────────────────────────────────────────── -->
     <div class="xa-statement stmt-curr">
       <div class="xa-stmt-body">
-        <span class="xa-lbl lbl-curr">Economía</span>
+        <span class="xa-lbl lbl-curr">Economics</span>
         <h3>
-          XAH, la moneda nativa
+          XAH, the native
           <br>
-          de Xahau
+          currency of Xahau
         </h3>
         <p>
-          La moneda nativa de Xahau es XAH — un activo inflacionario diseñado
-          para recompensar la participación activa. Cada cuenta puede reclamar
-          un ajuste de saldo mensual interactuando con un Hook en la cuenta
-          génesis, acumulando un 4% del saldo de la cuenta cada mes.
+          The native currency on Xahau is called XAH and is an inflationary
+          currency. Every account can participate in balance adjustment by
+          interacting with a Hook on the genesis account, monthly accruing 4% of
+          the account balance.
         </p>
         <p>
-          XAH actúa como mecanismo anti-spam de la red, añadiendo un coste a
-          cada transacción. Las transacciones estándar cuestan fracciones de un
-          solo XAH; las operaciones potenciadas por Hooks tienen comisiones
-          proporcionalmente más altas, reflejando su peso computacional en la
-          cadena. XAH también se requiere como reserva bloqueada para mantener
-          cuentas, poseer objetos y almacenar datos utilizados por contratos
-          inteligentes.
+          XAH is used to prevent network spam, by adding a cost of transacting.
+          Normal transactions cost fractions of a XAH, while the price of
+          transacting increases if interacting with Hooks. XAH is also required
+          as a locked balance, or reserve, to own an account, own objects, or
+          storing data for smart contract consumption.
         </p>
         <p>
-          XAH está disponible en exchanges principales como Bitrue, BitMart y
-          CoinEx, y cuenta con soporte en carteras hardware Ledger — haciéndolo
-          cada vez más accesible para usuarios de todo el mundo. Los proyectos
-          que dependen de Hooks para lógica personalizada deben mantener un
-          saldo de XAH suficiente para generar ajustes mensuales que cubran las
-          comisiones continuas.
+          Because of Hooks, the burn-rate of XAH is higher compared to that of
+          XRPL. For projects that rely on Hooks for custom logic, it is
+          recommended that they keep a balance of XAH that can generate a
+          monthly balance adjustment to pay for fees.
         </p>
       </div>
       <div class="xa-stmt-graphic">
@@ -208,6 +207,9 @@ const videoId = '4pruN6sWJho'
 </section>
 
 <style>
+  /* ══════════════════════════════════════════════════════════════════════════
+                 Design tokens — mirrors XahauFeatures exactly
+              ══════════════════════════════════════════════════════════════════════════ */
   .xabout {
     --ink: #0f2328;
     --dim: #2d3e44;
@@ -232,6 +234,9 @@ const videoId = '4pruN6sWJho'
     box-sizing: border-box;
   }
 
+  /* ══════════════════════════════════════════════════════════════════════════
+                 Page header
+              ══════════════════════════════════════════════════════════════════════════ */
   .xa-head {
     display: flex;
     justify-content: space-between;
@@ -271,9 +276,13 @@ const videoId = '4pruN6sWJho'
     letter-spacing: 0.03em;
   }
 
+  /* ══════════════════════════════════════════════════════════════════════════
+                 Acts
+              ══════════════════════════════════════════════════════════════════════════ */
   .xa-act {
     padding-top: 52px;
   }
+
   .xa-act-label {
     display: flex;
     align-items: center;
@@ -303,6 +312,9 @@ const videoId = '4pruN6sWJho'
     background: var(--vlt2);
   }
 
+  /* ══════════════════════════════════════════════════════════════════════════
+                 Labels
+              ══════════════════════════════════════════════════════════════════════════ */
   .xa-lbl {
     display: inline-block;
     font-family: ui-monospace, monospace;
@@ -327,6 +339,9 @@ const videoId = '4pruN6sWJho'
     background: rgba(78, 24, 184, 0.1);
   }
 
+  /* ══════════════════════════════════════════════════════════════════════════
+                 Statement sections
+              ══════════════════════════════════════════════════════════════════════════ */
   .xa-statement {
     display: flex;
     align-items: center;
@@ -359,6 +374,8 @@ const videoId = '4pruN6sWJho'
     letter-spacing: -0.03em;
     color: var(--ink);
   }
+
+  /* Gradient text per act */
   .stmt-net h3 {
     background: linear-gradient(140deg, #004d1a 15%, var(--grn-hi) 100%);
     -webkit-background-clip: text;
@@ -377,6 +394,7 @@ const videoId = '4pruN6sWJho'
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
+
   .xa-statement p {
     font-size: 15.5px;
     line-height: 1.72;
@@ -387,6 +405,9 @@ const videoId = '4pruN6sWJho'
     margin-bottom: 0;
   }
 
+  /* ══════════════════════════════════════════════════════════════════════════
+                 Video section
+              ══════════════════════════════════════════════════════════════════════════ */
   .xa-video-section {
     padding: 20px 28px 52px;
   }
@@ -412,6 +433,9 @@ const videoId = '4pruN6sWJho'
     display: block;
   }
 
+  /* ══════════════════════════════════════════════════════════════════════════
+                 Responsive
+              ══════════════════════════════════════════════════════════════════════════ */
   @media (max-width: 900px) {
     .xa-statement {
       flex-direction: column;
@@ -431,6 +455,7 @@ const videoId = '4pruN6sWJho'
       margin: 0 auto;
     }
   }
+
   @media (max-width: 640px) {
     .xabout {
       padding: 32px 24px 48px;
